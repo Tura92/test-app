@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  #erzeugt index, show, edit, update, delete routes
+  #erzeugt index, new, show, edit, update, destroy routes
   resources :professors
 end
