@@ -1,0 +1,9 @@
+<%= form_with model: @professor do |f| %>
+  <%= f.label :vorname %>
+  <%= f.text_field :vorname %>
+
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.submit "+" %>
+<% end %>

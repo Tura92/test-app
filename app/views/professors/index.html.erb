@@ -1,0 +1,21 @@
+<%= link_to "Professor hinzufügen", new_professor_path %>
+
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Vorname</th>
+  </tr>
+  </thead>
+
+  <tbody>
+    <% @professors.each do |professor| %>
+      <tr>
+        <td><%= professor.id %></td>
+        <td><%= professor.name %></td>
+        <td><%= professor.vorname %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
