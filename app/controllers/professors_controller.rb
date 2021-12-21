@@ -1,4 +1,5 @@
 class ProfessorsController < ActionController::Base
+
   def index
     @professors = Professor.all
   end
