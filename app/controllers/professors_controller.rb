@@ -17,7 +17,7 @@ class ProfessorsController < ActionController::Base
   private
 
     def professor_params
-      params.require(:professor).permit(:name, :vorname)
+      params.require(:professor).permit(:name, :vorname, :fachbereich)
     end
 
 end
